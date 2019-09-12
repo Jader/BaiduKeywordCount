@@ -15,6 +15,7 @@
 use BaiduKeywordCount\Handler;
 
 $keyword = '慧慧折扣';
+$servic = new Handler();
 $data = $servic::init($keyword);
 ```
 
