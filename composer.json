@@ -1,0 +1,28 @@
+{
+    "name": "jade/baidu-keyword-count",
+    "description": "百度关键词相关结果计数",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jade",
+            "email": "hmy940118@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "jaeger/querylist": "^4.1",
+        "jaeger/querylist-rule-baidu": "^4.0"
+    },
+    "require-dev": {
+        "php": ">=7.2",
+        "symfony/var-dumper": "^4.3",
+        "phpunit/phpunit": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaiduKeywordCount\\": "src/"
+        }
+    }
+}
